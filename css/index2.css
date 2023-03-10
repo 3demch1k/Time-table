@@ -84,3 +84,6 @@ h2 {
 p {
     color: #ffffff;
 }
+.box:hover {
+    transform:  scale(1.1);
+}
