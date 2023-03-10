@@ -84,6 +84,6 @@ h2 {
 p {
     color: #ffffff;
 }
-.box:hover {
+.wrapper:hover {
     transform:  scale(1.1);
 }
