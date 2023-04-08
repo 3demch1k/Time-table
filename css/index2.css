@@ -1,4 +1,4 @@
-header {
+.header {
     background-color:  #20815C;
     padding: 80px 0;
     position: relative;
@@ -57,20 +57,20 @@ header {
     transform-style: preserve-3d;
     transform: perspective(800px) 
 }
-h2{
+.h2{
    position:static;
     color: #ffffff;
     font-size:2.5rem;
     text-align: center;
     font-family: 'Acme', sans-serif;
 }
-p{
+.p{
     color:#ffffff;
     margin:20px 10px;
     font-family: 'Fira Code', monospace;
 }
 
-body {
+.body {
     background-color: #00AC6B;
 }
 
@@ -78,15 +78,15 @@ body {
     background-color: #20815C;
 }
  
-h2 {
+.h2 {
     color: #ffffff;
 }
-p {
+.p {
     color: rgb(255, 255, 255);
 }
 .wrapper:hover { 
     transform:  scale(1.2);
 }
- h3 {
+ .h3 {
     color: rgb(255, 255, 255);
  }
