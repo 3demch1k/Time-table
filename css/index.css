@@ -1,0 +1,95 @@
+header {
+    background-color:		#20815C;
+    padding: 80px 0;
+    position: relative;
+}
+h1
+{
+    text-align: center;
+    margin: 45px 0; 
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    margin: 36px 0;
+    color: #ffffff;
+}
+.nav-link {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+ body {
+    background-color: #00AC6B;
+}
+
+.container {
+padding: 1.5em;
+display: grid;
+grid-template-columns: repeat(auto-fit, 200px);
+justify-content: center;
+gap: 50px;
+}
+
+.wrapper {
+   
+    height: 100px;
+    width: 360px;
+    position: relative;
+    background: yellowgreen;
+    border-radius: 10px;
+    cursor: default;
+    animation: animate 1,5s linear infinite;
+}
+.wrapper .display,
+.wrapper span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.wrapper .display {
+    z-index: 999;
+    height: 85px;
+    width: 345px;
+    background: green;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.display #time {
+    line-height: 85px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.wrapper span {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: inherit;
+}
+
+.wrapper span:first-child{
+    filter: blur(7px);
+}
+.wrapper span:last-child {
+    filter: blur(20px); 
+}
+
+.card {
+    justify-content: start;
+}
