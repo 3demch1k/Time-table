@@ -11,7 +11,17 @@
   </head>
 <body>
   <header>  
-    <nav>
+    <script>  
+      setInterval(function () {
+          var now = new Date();
+          var clock = document.getElementById("clock");
+          clock.innerHTML = now.toLocaleTimeString();
+      }, 1000);
+      </script>
+      <span id="clock"
+      style="background-color: #2F4F4F; color: #00FF7F; border:4px outset #FFA500; padding:5px 20px;">
+      </span>
+      <nav>
             <ul class="nav justify-content-center">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
